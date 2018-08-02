@@ -1,0 +1,69 @@
+<html>
+<head>
+<script type="text/javascript" src="method.js"></script>
+<!--<script type="text/javascript" src="jquery-3.2.1.min.js"></script>-->
+<title>What for dinner?</title>
+
+</head>
+
+<body>
+
+
+
+<br>
+<style>
+#a{
+	width:300px;
+	/*border:1px solid;*/
+	text-align:center;
+}
+
+#b{
+	width:300px;
+	/*border:1px solid;*/
+	text-align:left;
+}
+</style>
+
+
+
+
+<div id="b">
+	selections: 
+	<select id="selection">
+		<option value = "风味">风味</option>
+		<option value = "休闲">休闲</option>
+		<option value = "黄焖鸡">黄焖鸡</option>
+		<option value = "杨国福">杨国福</option>
+		<option value = "肉本家">肉本家</option>
+		<option value = "二分之二">二分之二</option>
+		<option value = "小资派">小资派</option>
+		<option value = "烤肉拌饭">烤肉拌饭</option>
+		<option value = "周大虾">周大虾</option>
+		<option value = "神龙冒菜">神龙冒菜</option>
+		<option value = "KFC">KFC</option>
+		<option value = "金拱门">金拱门</option>
+		<option value = "一点点">一点点</option>
+		<option value = "小眷村">小眷村</option>
+		<option value = "黑泷堂">黑泷堂</option>
+	</select>
+
+	<button onclick = 'add()'>add</button><br><br>
+
+	diner choices： 
+	<textarea name="textar" id="textar" rows="10" cols="30"></textarea><br><br>
+
+	<button onclick = 'draw("myCanvas")'>submit</button><br><br>
+
+	decision： 
+	<textarea name="textar" id="result" rows="1" cols="18"></textarea><br><br>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
